@@ -10,7 +10,7 @@
     <?php
         $nome_usuario = "Estevão Locks";
 
-        echo "Seja muitíssimo bem vindo, $nome_usuario";
+        echo "<p>Seja muitíssimo bem vindo, $nome_usuario</p>";
 
     ?>
 
