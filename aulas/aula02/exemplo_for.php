@@ -7,12 +7,12 @@
 
     echo "<hr>";
 
-    // for ($i = 1; $i <= 5; $i++) {
-    //     echo $i . "<br>";
-    // }
+    for ($i = 1; $i <= 5; $i++) {
+        echo $i . "<br>";
+    }
 
     $qtd = count($nomes);
-    echo $qtd;
+    // echo $qtd;
 
     // echo "<hr>";
 
@@ -23,6 +23,6 @@
     echo "<hr>";
 
     foreach ($nomes as $key => $value) {
-        echo $key . " -> " . $value;
+        echo "<p><strong style=' color: red'>$key</strong>" . " ==> " . $value . "</p>";
     }
 ?>
