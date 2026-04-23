@@ -25,4 +25,6 @@
     foreach ($nomes as $key => $value) {
         echo "<p><strong style=' color: red'>$key</strong>" . " ==> " . $value . "</p>";
     }
+
+    
 ?>
